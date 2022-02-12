@@ -5,7 +5,6 @@ exports.config = {
       url: 'https://oranum.com/en/home',
       show: false,
       browser: 'chromium',
-      keepCookies: 'session'
     }
   },
   include: {
