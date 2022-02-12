@@ -1,0 +1,12 @@
+{
+  "name": "oranumautomatedtests",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "allure serve output",
+    "test": "npx codeceptjs run --features"
+  },
+  "dependencies": {
+    "codeceptjs": "^3.3.0",
+    "playwright": "^1.18.1"
+  }
+}
