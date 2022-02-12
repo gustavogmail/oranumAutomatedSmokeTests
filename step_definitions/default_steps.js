@@ -6,9 +6,13 @@ Before((test) => {
 
 Given('I am on the Home Page', () => {
   I.amOnPage('/');
-  I.wait(3)
 });
 
 Given('I have accepted the cookies policy', () => {
   homePage.acceptCookiesPolicy()
+});
+
+Given('I click in the {word} button', (button) => {
+  homePage.openSideBar();
+  homePage.clickSideBarButton(button);
 });

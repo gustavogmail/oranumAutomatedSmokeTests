@@ -1,6 +1,11 @@
 {
   "name": "oranumautomatedtests",
   "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Gustavo Saudade",
+    "url": "https://github.com/gustavogmail"
+  },
   "scripts": {
     "serve": "allure serve output",
     "test": "npx codeceptjs run --features"

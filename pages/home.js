@@ -3,7 +3,8 @@ const { I } = inject();
 module.exports = {
   locators: {
     menu_hamburguer: '[data-testid=button-header-hamburger]',
-    login_button: '[data-testid=menu-login-button]',
+    login: '[data-testid=menu-login-button]',
+    signup: '[data-testid=menu-join-now-button]',
     love: '[data-testid=Love]',
     clairvoyant: '[data-testid=Clairvoyant]',
     tarot: '[data-testid=Tarot]',
@@ -27,9 +28,9 @@ module.exports = {
     I.click({ css: this.locators.menu_hamburguer })
   },
 
-  clickLoginButton() {
+  clickSideBarButton(button) {
     I.wait(2)
-    I.click({ css: this.locators.login_button });
+    I.click({ css: this.locators[button.toLowerCase()] });
   },
 
   clickFavorite() {

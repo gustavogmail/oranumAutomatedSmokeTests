@@ -5,6 +5,7 @@ exports.config = {
       url: 'https://oranum.com/en/home',
       show: false,
       browser: 'chromium',
+      restart: 'session' 
     }
   },
   include: {

@@ -1,10 +1,5 @@
 const { I, homePage, loginModalPage } = inject();
 
-Given('I click in the Login button', () => {
-  homePage.openSideBar();
-  homePage.clickLoginButton();
-});
-
 When('I fill the Username field with {word}', (username) => {
   loginModalPage.toFillUsername(username);
 });
