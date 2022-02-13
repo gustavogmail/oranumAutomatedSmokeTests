@@ -6,10 +6,11 @@ Before((test) => {
 
 Given('I am on the Home Page', () => {
   I.amOnPage('/home');
+  I.wait(3);
 });
 
 Given('I have accepted the cookies policy', () => {
-  homePage.acceptCookiesPolicy()
+  homePage.acceptCookiesPolicy();
 });
 
 Given('I have accepted the cookies policyss', () => {

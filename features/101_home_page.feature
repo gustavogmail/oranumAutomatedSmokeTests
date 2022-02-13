@@ -5,8 +5,7 @@ Feature: Home page
 
   Background:
     Given I am on the Home Page
-    And I have accepted the cookies policy
-
+    
   Scenario Outline: Load the <section>
     Then I want to see the <section> loaded
 

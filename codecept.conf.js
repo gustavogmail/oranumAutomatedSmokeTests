@@ -5,7 +5,9 @@ exports.config = {
       url: 'https://oranum.com/en',
       show: false,
       browser: 'chromium',
-      restart: 'session' 
+      restart: 'session',
+      keepBrowserState: false,
+      keepCookies: true
     }
   },
   include: {
@@ -15,7 +17,9 @@ exports.config = {
     signUpModalPage: './pages/signup_modal.js',
     livestreamPage: './pages/livestream.js',
   },
-  mocha: {},
+  mocha: {
+    timeout: 0
+  },
   bootstrap: null,
   timeout: null,
   teardown: null,

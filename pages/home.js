@@ -35,11 +35,12 @@ module.exports = {
 
   openSideBar() {
     I.click({ css: this.locators.menu_hamburguer })
+    I.wait(2);
   },
 
   clickSideBarButton(button) {
-    I.wait(2)
     I.click({ css: this.locators[button] });
+    I.wait(2);
   },
 
   clickFavorite() {
