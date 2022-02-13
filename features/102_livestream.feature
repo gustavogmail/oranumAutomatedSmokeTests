@@ -1,4 +1,4 @@
-Feature: Psychic page / Livestream @current
+Feature: Psychic page / Livestream
 
   Background:
     Given I have accepted the cookies policyss
