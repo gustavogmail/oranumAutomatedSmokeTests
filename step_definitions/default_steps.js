@@ -5,9 +5,14 @@ Before((test) => {
 });
 
 Given('I am on the Home Page', () => {
-  I.amOnPage('/');
+  I.amOnPage('/home');
 });
 
 Given('I have accepted the cookies policy', () => {
+  homePage.acceptCookiesPolicy()
+});
+
+Given('I have accepted the cookies policyss', () => {
+  I.amOnPage('/home');
   homePage.acceptCookiesPolicy()
 });

@@ -1,6 +1,6 @@
 const { I, homePage } = inject();
 
-When('I select the {word} filter', (info) => {
+When('I select the {word}', (info) => {
   homePage.clickFilter(info)
 })
 

@@ -7,7 +7,7 @@ Feature: Home page
     Given I am on the Home Page
     And I have accepted the cookies policy
 
-  Scenario Outline: Load the <section> section
+  Scenario Outline: Load the <section>
     Then I want to see the <section> loaded
 
     Examples:

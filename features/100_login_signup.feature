@@ -7,7 +7,7 @@ Feature: Login / Signup
     Given I am on the Home Page
     And I have accepted the cookies policy
   
-  Scenario Outline: Show the <form> form
+  Scenario Outline: Show the <form>
     Given I click in the <form> sidebar button
     Then I want to be able to see the <form> form
 
@@ -16,7 +16,7 @@ Feature: Login / Signup
       | login  |
       | signup |
 
-  Scenario Outline: Check required validation for <field> field in login form
+  Scenario Outline: Check required validation for <field> in login form
     Given I click in the login sidebar button
     When I let the <field> field empty
     Then I want to see the required validation error message on <form> form

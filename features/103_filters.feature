@@ -8,7 +8,7 @@ Feature: Home Page Filters
     And I have accepted the cookies policy
 
   Scenario Outline: Select the filters
-    When I select the <Filter> filter
+    When I select the <Filter>
     Then I want to be able to see the Trending <Trending>
 
     Examples:

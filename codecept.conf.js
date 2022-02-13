@@ -2,7 +2,7 @@ exports.config = {
   output: './output',
   helpers: {
     Playwright: {
-      url: 'https://oranum.com/en/home',
+      url: 'https://oranum.com/en',
       show: false,
       browser: 'chromium',
       restart: 'session' 
@@ -13,6 +13,7 @@ exports.config = {
     homePage: './pages/home.js',
     loginModalPage: './pages/login_modal.js',
     signUpModalPage: './pages/signup_modal.js',
+    livestreamPage: './pages/livestream.js',
   },
   mocha: {},
   bootstrap: null,
