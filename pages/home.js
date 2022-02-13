@@ -30,7 +30,7 @@ module.exports = {
 
   clickSideBarButton(button) {
     I.wait(2)
-    I.click({ css: this.locators[button.toLowerCase()] });
+    I.click({ css: this.locators[button] });
   },
 
   clickFavorite() {

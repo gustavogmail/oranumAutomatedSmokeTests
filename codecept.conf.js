@@ -12,6 +12,7 @@ exports.config = {
     I: './steps_file.js',
     homePage: './pages/home.js',
     loginModalPage: './pages/login_modal.js',
+    signUpModalPage: './pages/signup_modal.js',
   },
   mocha: {},
   bootstrap: null,
