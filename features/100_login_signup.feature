@@ -1,4 +1,4 @@
-Feature: Login / Signup @current
+Feature: Login / Signup
   In order to achieve the features priorities
   As a Oranum user
   I want to be able to use the login and signup modals
