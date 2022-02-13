@@ -1,10 +1,10 @@
-run-features:
-	@echo "Running BDD Scenarios..."
-	npx codeceptjs run --features
-
 install:
 	@echo "Installing npm dependecies..."
 	npm install
+
+run-features:
+	@echo "Running BDD Scenarios..."
+	npx codeceptjs run --features
 
 build-image:
 	@echo "Building the Docker image..."
