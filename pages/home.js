@@ -44,7 +44,11 @@ module.exports = {
   },
 
   clickFavorite() {
-    I.click(this.locators.favorites)
+    I.click(this.locators.favorites);
+  },
+
+  clickSearch() {
+    I.click(this.locators.search);
   },
 
   checkHeaderSection() {

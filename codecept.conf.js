@@ -7,7 +7,7 @@ exports.config = {
       browser: 'chromium',
       restart: 'session',
       keepBrowserState: false,
-      keepCookies: true
+      keepCookies: true,
     }
   },
   include: {
@@ -16,6 +16,7 @@ exports.config = {
     loginModalPage: './pages/login_modal.js',
     signUpModalPage: './pages/signup_modal.js',
     livestreamPage: './pages/livestream.js',
+    searchPage: './pages/search.js',
   },
   mocha: {
     timeout: 0
