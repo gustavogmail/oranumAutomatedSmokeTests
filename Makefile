@@ -2,6 +2,10 @@ install:
 	@echo "Installing npm dependecies..."
 	npm install
 
+run:
+	@echo "Running BDD Scenarios and generationg Allure reports..."
+	npm run test
+
 run-features:
 	@echo "Running BDD Scenarios..."
 	npx codeceptjs run --features
