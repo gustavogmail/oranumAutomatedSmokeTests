@@ -20,6 +20,6 @@ RUN export JAVA_HOME
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 5000
 
 CMD [ "npm", "test" ]

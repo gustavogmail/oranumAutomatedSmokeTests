@@ -7,7 +7,7 @@
     "url": "https://github.com/gustavogmail"
   },
   "scripts": {
-    "test": "npx codeceptjs run --features --plugins allure && allure serve output -p 8080 || allure serve output -p 8080"
+    "test": "npx codeceptjs run --features --plugins allure && allure serve output -p 5000 || allure serve output -p 5000"
   },
   "dependencies": {
     "codeceptjs": "^3.3.0",
