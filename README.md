@@ -1,12 +1,12 @@
 # Oranum Automated Smoke Tests
 
 <p align="center">
-    <img src="./images/BannerAutomation.png" height="200" width="375" alt="Unform" />  
+  <img src="./images/BannerAutomation.png" height="200" width="375" />
 </p>
 
 <div align="center">
 
-[![npm](./images/NodeVersion.png)](https://www.npmjs.com/package/@unform/core)<space><space>
+[![npm](./images/NodeVersion.png)]()<space><space>
 [![Coverage Status](./images/NpmVersion.png)]()
 
 </div>
@@ -22,7 +22,7 @@ The project is based on BDD scenarios and developed using CodeceptJs framework.
 ## Installation
 ### 1. Clone this repo from github
     git clone https://github.com/gustavogmail/oranumAutomatedSmokeTests.git
-### 2. Install the dependencies (in the project's root folder):
+### 2. (In the project's root folder) Install the dependencies:
     make install
 
 <br/>
@@ -35,10 +35,13 @@ The project is based on BDD scenarios and developed using CodeceptJs framework.
 
 ## OR 
 
-#### Download the container from Docker Hub
+### Download the container from Docker Hub
     docker pull gustavosaudade/automation:4.0
-#### Run the container
+### Run the container
     docker run -t -p 5000:5000 gustavosaudade/oranumautomation:4.0
+
+#### After the tests conclusion, open a browser in to see the Allure reports
+    http://localhost:5000/
 
 <br/>
 
@@ -48,8 +51,10 @@ The project is based on BDD scenarios and developed using CodeceptJs framework.
     make run-features
 
 ### IMPORTANT !! :
-#### To run the allure reports locally, please make sure you have JRE installed and JAVA_HOME environment variable setted
-#### Please also make sure you have the allure installed globally:
+#### To run Allure reports locally, make sure you have the JRE installed and the JAVA_HOME environment variable set
+#### Also make sure you have allure installed globally:
     npm install -g allure-commandline --save-dev
 #### So, you will be able to run
     make run-allure
+#### Open a browser in to see the Allure reports
+    http://localhost:5000/
