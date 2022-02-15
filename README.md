@@ -6,8 +6,8 @@
 
 <div align="center">
 
-<img src="./images/NodeVersion.png" />
-<img src="./images/NpmVersion.png" />
+<img src="./images/cc.png" />
+<img src="./images/pp.png" />
 
 </div>
 
