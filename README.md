@@ -6,8 +6,8 @@
 
 <div align="center">
 
-[![npm](./images/NodeVersion.png)]()<space><space>
-[![Coverage Status](./images/NpmVersion.png)]()
+<img src="./images/NodeVersion.png" />
+<img src="./images/NpmVersion.png" />
 
 </div>
 
@@ -23,6 +23,7 @@ The project is based on BDD scenarios and developed using CodeceptJs framework.
 ### 1. Clone this repo from github
     git clone https://github.com/gustavogmail/oranumAutomatedSmokeTests.git
 ### 2. (In the project's root folder) Install the dependencies:
+    cd oranumAutomatedSmokeTests 
     make install
 
 <br/>
@@ -31,14 +32,14 @@ The project is based on BDD scenarios and developed using CodeceptJs framework.
 ### You can run this project in a Docker container:
 #### In the project root folder:
     make build-image
-    make run-container
+    make container-run
 
 ## OR 
 
 ### Download the container from Docker Hub
-    docker pull gustavosaudade/automation:4.0
+    docker pull gustavosaudade/oranumautomation:1.0
 ### Run the container
-    docker run -t -p 5000:5000 gustavosaudade/oranumautomation:4.0
+    docker run -t -p 5000:5000 gustavosaudade/oranumautomation:1.0
 
 #### After the tests conclusion, open a browser in to see the Allure reports
     http://localhost:5000/

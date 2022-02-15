@@ -4,11 +4,11 @@ install:
 
 build-image:
 	@echo "Building the Docker image..."
-	docker build -t gustavosaudade/oranumautomation:5.0 .
+	docker build -t gustavosaudade/oranumautomation:1.0 .
 
 container-run:
 	@echo "Running the Docker container..."
-	docker run -t -p 5000:5000 gustavosaudade/oranumautomation:5.0
+	docker run -t -p 5000:5000 gustavosaudade/oranumautomation:1.0
 
 run-allure:
 	@echo "Running BDD Scenarios and generationg Allure reports..."
